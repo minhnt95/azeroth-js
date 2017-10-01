@@ -59,7 +59,7 @@ fs.readdir(__dirname + '/posts/', (err, files) => {
           let markdownPost = data.toString('utf8'),
             lines = markdownPost.split('\n'),
             title = '';
-          
+
           if (lines.length > 0) {
             title = lines[0].replace(/#/g, '').replace("\r\n", '').replace("\n", '');
             if (lines.length > 6 && lines[lines.length - 6].indexOf('<meta') === 0) {
