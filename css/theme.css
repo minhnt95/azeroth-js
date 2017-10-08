@@ -132,6 +132,29 @@ html, body {
     position: relative;
 }
 
+.header .info {
+  text-align: center;
+  color: black;
+}
+
+.header .info > * {
+  display: block;
+  margin: auto;
+}
+
+.header .info > a {
+  display: inline-block;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.header .info img {
+  width: 120px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+}
+
 .header .icon {
     margin-right: 10px;
 }
