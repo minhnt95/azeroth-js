@@ -1,4 +1,4 @@
 # Blog
 
 ## Danh sách bài viết
-- [ ] Sự khác biệt giữa one-way data bidings và two-way data bidings?
+- [ ] Sự khác biệt giữa one-way data bindings và two-way data bindings?
